@@ -11,7 +11,7 @@ body {
 
 .background-div {
     height: 100vh;
-    background-image: url('./3d-rendering-abstract-building.jpg');
+    background-image: url('../image/3d-rendering-abstract-building.jpg');
     background-size: cover;
     background-position: center;
     transition: background-color 0.3s ease;
@@ -256,9 +256,7 @@ a {
     .logo {
         font-size: 1.5rem;
     }
-    .background-div{
-        
-    }
+    
     .nav-link {
         flex-direction: column;
         width: 100%;
