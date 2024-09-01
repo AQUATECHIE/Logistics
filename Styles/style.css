@@ -237,6 +237,66 @@ a {
     font-size: 1.8rem;
     color: black;
 }
+.contact{
+   background-color:  rgb(241, 245, 242);
+   text-align: center;
+   padding: 20px;
+}
+.contact h1{
+    color: orangered;
+}
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.contact form .inputBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 100px;
+    background-color: #333;
+    color: white;
+}
+.btn a{
+    color: white;
+}
+
+.contact form .inputBox input,
+.contact form textarea {
+    width: 100%;
+    background: #333;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: none;
+}
+
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder {
+    color: #eee;
+    text-transform: capitalize;
+}
+
+.contact form .inputBox input:focus,
+.contact form textarea:focus {
+    background: #444;
+}
+
+.contact form .inputBox input {
+    width: 49%;
+}
+
+.contact form textarea {
+    resize: none;
+}
 
 @media screen and (max-width: 1020px) {
     .background-div {
