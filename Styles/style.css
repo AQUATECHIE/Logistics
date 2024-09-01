@@ -297,6 +297,57 @@ a {
 .contact form textarea {
     resize: none;
 }
+.footer {
+    background-color: rgb(88, 92, 196);
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.footer .boxs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .boxs-container .box h3 {
+    font-size: 2.0rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .boxs-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+.footer .boxs-container .box a i {
+    padding-right: .5rem;
+    color: var(--main-color);
+}
+
+.footer .boxs-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: .1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.footer .credit span {
+    color: var(--main-color);
+}
 
 @media screen and (max-width: 1020px) {
     .background-div {
@@ -381,4 +432,10 @@ a {
     width: 100%;
     height: 30%;
    }
+   .footer {
+    background-color: rgb(88, 92, 196);
+    padding: 20px;
+    width: 100%;
+    height: 850px;
+}
 }
