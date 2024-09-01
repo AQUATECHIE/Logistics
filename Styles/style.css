@@ -242,7 +242,7 @@ a {
     .background-div {
         height: 100vh;
         width: 100%;
-        background-image: url('./3d-rendering-abstract-building.jpg');
+        background-image: url('../image/3d-rendering-abstract-building.jpg');
         background-size: cover;
         background-position: center;
         transition: background-color 0.3s ease;
@@ -258,10 +258,10 @@ a {
     }
     
     .nav-link {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         display: none;
-        background-color: transparent;
+        background-color: rgb(241, 245, 242);
         position: absolute;
         top: 80px;
         left: 0;
