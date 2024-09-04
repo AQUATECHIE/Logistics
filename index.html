@@ -5,183 +5,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>escamillaprime</title>
+    <link rel="shortcut icon" href="./image/delivery-truck.png" type="image/x-icon">
     <link rel="stylesheet" href="./Styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="background-div" id="home">
-        <nav class="navbar active">
-            <h1 style="display: flex; justify-content: center; align-items: center;">
-                <img src="./image/delivery-truck.png" alt=" " width="70px">
-                <a href="home" class="logo">escamillaprime</a>
-            </h1>
-            <div class="nav-link" id="navLinks">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./image/delivery-truck.png" alt="" width="70">
+                <span>Escamillaprime</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle">
-                &#9776;
-            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
 
-        </nav>
-
-        <div class="content">
-            <div class="con-service">
-                <h3>safe and faster</h3>
-                <h1>Logistics Services</h1>
-
-                <button><a href="#services">Services</a></button>
-
-            </div>
-
-        </div>
-    </div>
-    <div class="container2" id="about">
-        <div class="about">
-
-            <h3> About escamillaprime </h3>
-        </div>
-        <div class="about-con">
-            <div class="about-img">
-                <img src="./image/colorful-storage-containers-logistic-center.jpg" alt="" width="200px">
-            </div>
-            <div class="about-txt">
-                <p>Over the last 40 years, FTI Consulting has grown to become a market-leading global consulting <br>
-                    firm that brings together distinct capabilities and experts to serve as the trusted advisor to
-                    clients <br>
-                    when they are facing their greatest opportunities and challenges. Each practice is a leader in its
-                    <br>
-                    own right, staffed with experts recognized for the depth of their knowledge and a track record of
-                    <br>
-                    making an impact. Collectively, FTI Consulting offers a comprehensive suite of services designed
-                    <br>
-                    to assist clients across the business cycle—from proactive risk management to the ability to <br>
-                    respond rapidly to unexpected crises and dynamic environments.</p>
             </div>
 
         </div>
+    </nav>
 
-    </div>
-    <div class="container3" id="services">
-        <div class="service1">
-            <h3> All Services </h3>
-            <h1>Trusted for our services</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fugiat similique, <br>consectetur ex velit minus excepturi impedit aspernatur minima, libero.</p>
-        </div>
-        <div class="service2">
-            <div class="service2-con">
-                <img src="./image/delivery-truck.png" alt="" width="70px">
-                <div class="span">
-
-                    <span class="spanN">01</span>
-                    <span class="spanL">Air Freight</span>
-                </div>
-                <div class="con">
-
-                    <p>our aim is to optimize and improve <br>
-                        your supply chain so that we can <br>
-                        give you the best service.
-                    
-                    </p>
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('./image/galaxy.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>About</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione earum sapiente quasi dolor
+                        officia nemo, quo architecto debitis nobis? Dolor eius sequi assumenda consectetur sed dolores
+                        blanditiis porro veniam unde.</p>
                 </div>
             </div>
-            <div class="service2-con">
-                <img src="./image/distribution.png" alt="" width="70px">
-                <div class="span">
-
-                    <span class="spanN">01</span>
-                    <span class="spanL">Air Freight</span>
-                </div>
-                <div class="con">
-
-                    <p>our aim is to optimize and improve <br>
-                        your supply chain so that we can <br>
-                        give you the best service.
-                    
-                    </p>
+            <div class="carousel-item" style="background-image: url('./image/R.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>services</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit modi, libero dolorem quo
+                        obcaecati ipsam in fugit doloribus repellendus ab! Hic pariatur provident eligendi officiis eum
+                        voluptates assumenda omnis. Inventore?</p>
                 </div>
             </div>
-            <div class="service2-con">
-                <img src="./image/warehouse.png" alt="" width="70px">
-                <div class="span">
-
-                    <span class="spanN">01</span>
-                    <span class="spanL">Air Freight</span>
+            <div class="carousel-item" style="background-image: url('./image/R\ \(1\).jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third Slide</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, aliquid magnam? Ea quaerat
+                        esse quasi laboriosam quibusdam ut harum magnam fugit animi quidem sint pariatur, facere qui
+                        quia ab fugiat!</p>
                 </div>
-                <div class="con">
-
-                    <p>our aim is to optimize and improve <br>
-                        your supply chain so that we can <br>
-                        give you the best service.
-                    
-                    </p>
-                </div>
-            </div>
-           
-
-        </div>
-    </div>
-    
-    <div class="contact" id="contact">
-        <h1 class="heading"> Contact Us </h1>
-        <form action="">
-            <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
-            </div>
-            <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
-            </div>
-            <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
-           <button class="btn"><a href="">submit</a></button>
-        </form>
-
-    </div>
-
-    <div class="footer">
-        <div class="boxs-container">
-            <!-- <div class="box">
-                <h3>branches</h3>
-                <a href="#"><i class="fas fa-map-marker-alt"></i>GRA</a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i>allen avenue</a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i>ikoyi</a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i>agege</a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i>maryland</a>
-            </div> -->
-            <div class="box">
-                <h3>quick link</h3>
-                <a href="#home"><i class="fas fa-arrow-right"></i>home</a>
-                <a href="#services"><i class="fas fa-arrow-right"></i>service</a>
-                <a href="#about"><i class="fas fa-arrow-right"></i>about</a>
-                <a href="#contact"><i class="fas fa-arrow-right"></i>contact</a>
-            </div>
-            <div class="box">
-                <h3>contact info</h3>
-                <a href="#"><i class="fas fa-phone"></i>+123 -456-7890</a>
-                <a href="#"><i class="fas fa-phone"></i>+111-222-3456</a>
-                <a href="#"><i class="fas fa-envelope"></i>escamillaprime@gmail.com</a>
-                <a href="#"><i class="fas fa-envelope"></i>escamillaprime021@gmail.com</a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i>lagos, Nigeria - 500010</a>
-            </div>
-            <div class="box">
-                <h3>follow us</h3>
-                <a href="#"><i  class="fa-brands fa-facebook"></i>facebook</a>
-                <a href="#"><i  class="fa-brands fa-twitter"></i>twitter</a>
-                <a href="#"><i  class="fa-brands fa-instagram"></i>instagramt</a>
-                <a href="#"><i  class="fa-brands fa-tiktok"></i>tiktok</a>
             </div>
         </div>
 
     </div>
+    <div class="container">
+        <h3>spotlight</h3>
+        <div class="row align-items-center child">
+            <!-- Image Div -->
+            <div class="col-lg-6 col-md-12 img-div">
+                <img src="./image/colorful-storage-containers-logistic-center.jpg" alt="Placeholder Image"
+                    class="img-fluid">
+            </div>
+            <!-- Text Div -->
+            <div class="col-lg-6 col-md-12 text-div">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quis! Minus, magnam facilis
+                    nesciunt ipsam sed quisquam. Officia aliquid tempora, facilis animi molestiae ex dolorem natus sed
+                    ad enim temporibus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit magnam ab sapiente ipsum.
+                    Officiis dolorem culpa nemo eligendi tempore voluptas quis consectetur sapiente at alias doloremque
+                    animi, illo magnam. <br>
+                    <a href="#" class="btn btn-primary">Click Me</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container2">
+        <h3>Featured Business Consulting Services</h3>
+        <!-- Parent2 Div -->
+        <div class="row" id="parent2">
+            <!-- Top Row (2 Divs) -->
+            <div class="col-md-6 child-div">
+                <img src="./image/3d-rendering-abstract-building.jpg" alt="Placeholder Image" width="80">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Ab voluptatum a praesentium accusamus voluptatibus repudiandae suscipit!</p>
+            </div>
+            <div class="col-md-6 child-div">
+                <img src="./image/3d-rendering-abstract-building.jpg" alt="Placeholder Image" width="80">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Ab voluptatum a praesentium accusamus voluptatibus repudiandae suscipit!</p>
+            </div>
+
+            <!-- Bottom Row (3 Divs) -->
+            <div class="col-md-4 child-div">
+                <img src="./image/3d-rendering-abstract-building.jpg" alt="Placeholder Image" width="80">
+                <p>Lorem ipsum dolor sit amet adipisicingelit.<br>
+                    Ab voluptatum a praesentium accusamus </p>
+            </div>
+            <div class="col-md-4 child-div">
+                <img src="./image/3d-rendering-abstract-building.jpg" alt="Placeholder Image" width="80">
+                <p>Lorem ipsum dolor sit amet adipisicingelit.<br>
+                    Ab voluptatum a praesentium accusamus </p>
+            </div>
+            <div class="col-md-4 child-div">
+                <img src="./image/3d-rendering-abstract-building.jpg" alt="Placeholder Image" width="80">
+                <p>Lorem ipsum dolor sit amet adipisicingelit.<br>
+                    Ab voluptatum a praesentium accusamus </p>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
 </body>
 
 </html>
