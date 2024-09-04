@@ -64,6 +64,7 @@ ul{
 }
 .container2{
     padding: 20px;
+    height: 500px;
 }
 .child-div{
     display: flex;
@@ -83,11 +84,12 @@ ul{
     margin: auto;
     row-gap: 20px;
 }
-#map {
-    height: 400px; /* Set the map height */
-    width: 100%;   /* Full width */
-}
 
+.container3{
+    background-color: hsla(240, 25%, 90%, 0.507);
+    height: 500px;
+    
+}
 
 
 
@@ -134,6 +136,10 @@ ul{
         height: 400px;
         margin: auto;
     }
+    .container3{
+        height: 500px;
+    }
+    
    
 
     
